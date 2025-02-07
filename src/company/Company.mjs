@@ -1,7 +1,9 @@
 // src/company/Company.js
-const Employee = require('./Employee');
-const Manager = require('./Manager');
-const SalesPerson = require('./SalesPerson');
+import Employee from "./Employee";
+
+import Manager from './Manager';
+
+import SalesPerson from './SalesPerson';
 
 class Company {
     constructor() {

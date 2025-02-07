@@ -1,4 +1,3 @@
-// src/company/Employee.js
 class Employee {
     constructor(id, basicSalary, department) {
         this.id = id;

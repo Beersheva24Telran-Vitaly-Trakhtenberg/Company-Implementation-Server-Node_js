@@ -1,6 +1,6 @@
-import {INTERNAL_ERROR, NOT_FOUND, SUCCESS, WRONG_REQUEST} from "../utils/ResponseCodes";
+//import { ResponseCodes } from "../utils/ResponseCodes.mjs";
 
-import CompanySettings from "../utils/CompanySettings";
+import CompanySettings from "../utils/CompanySettings.mjs";
 
 class CompanyOperations {
     constructor(server, port) {
