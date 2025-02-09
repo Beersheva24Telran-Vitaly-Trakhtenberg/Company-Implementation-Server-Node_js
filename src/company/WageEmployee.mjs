@@ -1,4 +1,4 @@
-const Employee = require('./Employee');
+import Employee from './Employee.mjs';
 
 class WageEmployee extends Employee {
     #wage;
@@ -34,3 +34,5 @@ class WageEmployee extends Employee {
         return super.computeSalary() + this.#wage * this.#hours;
     }
 }
+
+export default WageEmployee;

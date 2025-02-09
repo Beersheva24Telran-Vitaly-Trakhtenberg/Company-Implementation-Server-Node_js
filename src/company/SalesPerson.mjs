@@ -1,4 +1,4 @@
-const Employee = require('./Employee');
+import WageEmployee from './WageEmployee.mjs';
 
 class SalesPerson extends WageEmployee {
     #percent;
@@ -32,5 +32,6 @@ class SalesPerson extends WageEmployee {
     computeSalary() {
         return (super.computeSalary() + this.#sales * this.#percent / 100);
     }
-
 }
+
+export default SalesPerson;

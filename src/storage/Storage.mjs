@@ -1,5 +1,5 @@
-const PlainFileStorage = require('./PlainFileStorage');
-const SQLDatabaseStorage = require('./SQLDatabaseStorage');
+import PlainFileStorage from './PlainFileStorage.mjs';
+import SQLDatabaseStorage from './SQLDatabaseStorage.mjs';
 
 class Storage {
     static createStorage(server, type) {

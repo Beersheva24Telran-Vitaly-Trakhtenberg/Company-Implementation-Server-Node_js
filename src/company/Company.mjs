@@ -1,9 +1,9 @@
 // src/company/Company.js
-import Employee from "./Employee";
+import Employee from "./Employee.mjs";
 
-import Manager from './Manager';
+import Manager from './Manager.mjs';
 
-import SalesPerson from './SalesPerson';
+import SalesPerson from './SalesPerson.mjs';
 
 class Company {
     constructor() {

@@ -1,4 +1,4 @@
-const Employee = require('./Employee');
+import Employee from './Employee.mjs';
 
 class Manager extends Employee {
     #factor;
